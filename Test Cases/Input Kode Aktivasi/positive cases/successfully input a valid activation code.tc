@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>successfully input a valid activation code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b010d183-6ed8-46ec-a57d-7ee31e0292b9</testCaseGuid>
+</TestCaseEntity>

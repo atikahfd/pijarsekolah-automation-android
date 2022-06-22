@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify alert shown when input an invalid activation code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d12e73d-b210-419f-a63a-8ae84b7c19ca</testCaseGuid>
+</TestCaseEntity>
