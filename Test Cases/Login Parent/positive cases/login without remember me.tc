@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login without remember me</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e7bf431-7193-44e9-9f61-ff837e7bdb17</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a0acc30-ed3b-4f27-8c74-8e7aec3e61d7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2df00101-033a-4e13-93ff-f748ace6317f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

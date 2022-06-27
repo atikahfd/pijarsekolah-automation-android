@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify alert shown when input an invalid username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>961bf492-9fb0-4ef3-80db-fa3ddf73df30</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>266b8c4c-b3a0-44ba-8b37-21af5bcc4b89</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bcf4eeab-720b-4b07-bb34-c2a8cf504777</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
