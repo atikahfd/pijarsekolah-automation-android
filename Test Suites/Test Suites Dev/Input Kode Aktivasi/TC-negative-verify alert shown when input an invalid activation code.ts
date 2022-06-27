@@ -21,6 +21,21 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Input Kode Aktivasi/negative cases/verify alert shown when input an invalid activation code</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7b8c7f72-fec6-4d12-a487-a75a1729c9e1</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Activation Code/Dev/activation-code-dev</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7b8c7f72-fec6-4d12-a487-a75a1729c9e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>activationCode</value>
+         <variableId>441058ba-18ea-491d-a90b-9afbc798887e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f1f9ee35-f1c2-44cb-a6d5-902e78e51192</guid>

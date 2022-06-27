@@ -9,14 +9,4 @@
       <initValue>'AppFile/PS-1.0.0-DEV.apk'</initValue>
       <name>apkPath</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>npsn for school 1</description>
-      <initValue>'18181819'</initValue>
-      <name>activationCode1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>npsn for school 2</description>
-      <initValue>'18181818'</initValue>
-      <name>activationCode2</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

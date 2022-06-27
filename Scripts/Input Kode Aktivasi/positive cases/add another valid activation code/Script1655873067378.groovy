@@ -19,8 +19,8 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.tap(findTestObject('Page Login Parent/android.view.ViewGroup0 - Back to Activation Code'), 30)
 
 'Successfully directed to List schools page, verify elements exist'
-Mobile.verifyElementExist(findTestObject('Page List Schools/android.widget.TextView0 - Sekolah yang anda akses sebelumnya'),
-	30)
+Mobile.verifyElementExist(findTestObject('Page List Schools/android.widget.TextView0 - Sekolah yang anda akses sebelumnya'), 
+    30)
 
 Mobile.verifyElementExist(findTestObject('Page List Schools/android.view.ViewGroup0 - Existing School'), 30)
 
@@ -36,11 +36,11 @@ Mobile.tap(findTestObject('Page List Schools/android.widget.EditText0 - Kode Akt
 Mobile.clearText(findTestObject('Page List Schools/android.widget.EditText0 - Kode Aktivasi'), 30)
 
 'Set another valid activation code'
-Mobile.setText(findTestObject('Page List Schools/android.widget.EditText0 - Kode Aktivasi'), GlobalVariable.activationCode2,
-	30)
+Mobile.setText(findTestObject('Page List Schools/android.widget.EditText0 - Kode Aktivasi'), activationCode, 30)
 
 'Click OK button'
 Mobile.tap(findTestObject('Page List Schools/android.view.ViewGroup0 - Button OK'), 30)
 
 'Delay before application closes'
 Mobile.delay(2)
+

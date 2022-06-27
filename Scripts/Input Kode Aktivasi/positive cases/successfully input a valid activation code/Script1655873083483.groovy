@@ -19,8 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.tap(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), 30)
 
 'Set invalid activation code'
-Mobile.setText(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), GlobalVariable.activationCode1,
-	30)
+Mobile.setText(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), activationCode, 3)
 
 'Click OK button'
 Mobile.tap(findTestObject('Page Activation Code/android.view.ViewGroup0 - Button OK'), 30)
@@ -34,7 +33,9 @@ Mobile.verifyElementExist(findTestObject('Page Login Parent/android.widget.EditT
 
 Mobile.verifyElementExist(findTestObject('Page Login Parent/android.widget.EditText0 - Password'), 30)
 
-Mobile.verifyElementExist(findTestObject('Page Login Parent/android.view.ViewGroup0 - Check Ingat Saya'), 30)
+Mobile.verifyElementExist(findTestObject('Page Login Parent/android.view.ViewGroup0 - View Password'), 30)
+
+Mobile.verifyElementNotChecked(findTestObject('Page Login Parent/android.view.ViewGroup0 - rme'), 30)
 
 Mobile.verifyElementExist(findTestObject('Page Login Parent/android.widget.TextView0 - Lupa Password'), 30)
 

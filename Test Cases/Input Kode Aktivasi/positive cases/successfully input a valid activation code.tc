@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b010d183-6ed8-46ec-a57d-7ee31e0292b9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87fbee8f-48ee-4200-bc4d-146370a4e3a6</id>
+      <masked>false</masked>
+      <name>activationCode</name>
+   </variable>
 </TestCaseEntity>
