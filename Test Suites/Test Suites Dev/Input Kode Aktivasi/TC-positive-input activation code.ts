@@ -21,6 +21,21 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Input Kode Aktivasi/positive cases/successfully input a valid activation code</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c2034ac9-3d2f-44a3-8169-b1bb9738ba28</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Activation Code/Dev/activation-code-dev</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c2034ac9-3d2f-44a3-8169-b1bb9738ba28</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>activationCode</value>
+         <variableId>87fbee8f-48ee-4200-bc4d-146370a4e3a6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>efa1b6c0-cab5-4d9c-b8fa-e07fa1768801</guid>

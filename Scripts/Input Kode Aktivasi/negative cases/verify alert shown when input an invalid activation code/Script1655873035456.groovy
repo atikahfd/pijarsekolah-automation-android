@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.tap(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), 30)
 
 'Set invalid activation code'
-Mobile.setText(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), '18181900', 30)
+Mobile.setText(findTestObject('Page Activation Code/android.widget.EditText0 - Kode Aktivasi'), activationCode, 30)
 
 'Click OK button'
 Mobile.tap(findTestObject('Page Activation Code/android.view.ViewGroup0 - Button OK'), 30)
@@ -30,3 +30,4 @@ Mobile.verifyElementText(findTestObject('Page Activation Code/android.widget.Tex
 
 'Delay before application closes'
 Mobile.delay(2)
+
