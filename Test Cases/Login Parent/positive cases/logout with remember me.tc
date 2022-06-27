@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username and password remains on the textbox if rme checkbox has been ticked</description>
+   <name>logout with remember me</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5466c83e-77ec-4597-a530-6c1c0b2ae1e2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2cbc4190-fe76-449d-84ac-ae5faec546f8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6501480f-aa9e-4f53-921a-170d3015ca59</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

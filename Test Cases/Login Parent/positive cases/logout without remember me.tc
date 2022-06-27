@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username and password remains on the textbox if rme checkbox has been ticked</description>
+   <name>logout without remember me</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c53f9d9f-c3ed-4773-95f8-5d612c86e7de</testCaseGuid>
+</TestCaseEntity>
